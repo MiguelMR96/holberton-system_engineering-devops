@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# If 9 say hi and then print again Holberton School
+i=0
+while [ $i -lt 10 ]; do
+    echo "Holberton School"
+    i=$(( i + 1 ))
+    if [[ $i -eq 9 ]]; then
+        echo "Hi"
+    fi
+done
