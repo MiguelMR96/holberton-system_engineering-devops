@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Prints Holberton 10 times
+STRI="Holberton School"
+i=0
+while [ $i -lt 10 ]; do
+    echo "$STRI"
+    i=$(( i + 1 ))
+done
