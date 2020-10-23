@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Print a the clock hours
 i=0
-while [ $i -lt 24 ]; do
+while [ $i -lt 13 ]; do
     j=1
     echo "Hour: $i"
     while [ $j -lt 60 ]; do
