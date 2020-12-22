@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# write a Bash script with the minimum number of commands to automate your fix
+# Bash script with the minimum number of commands to automate your fix
 
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
