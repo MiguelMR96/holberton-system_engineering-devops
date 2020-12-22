@@ -2,7 +2,7 @@
 
 exec { 'Update':
   command => 'sudo apt-get update',
-  path    => ['/usr/bin'],
+  path    => ['/usr/bin', '/bin'],
 }
 
 package { 'Install nginx':
@@ -20,5 +20,5 @@ file_line { 'append line in nginx config file':
 
 exec { 'restart nginx':
   command => 'sudo service nginx restart',
-  path    => ['/usr/bin'],
+  path    => ['/usr/bin', '/bin'],
 }
