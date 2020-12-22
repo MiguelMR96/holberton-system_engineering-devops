@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# configure web-02 to be identical to web-01
+
+sudo sed -i "/server_name _;/ a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
