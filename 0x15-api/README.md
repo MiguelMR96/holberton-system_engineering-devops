@@ -6,6 +6,8 @@ In this folder are some exercises managing data with an example API available fo
 ![](https://www.seobility.net/en/wiki/images/f/f1/Rest-API.png)
 
 ## More info about APIs:
-[](https://www.webopedia.com/definitions/api/)
-[](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
+[API definition](https://www.webopedia.com/definitions/api/)
+[What is an api? in english, please](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 
+## Authors
+Miguel Montoya R. (1485@holbertonschool.com)
