@@ -3,8 +3,8 @@
 for a given employee ID, returns information about
 his/her To-Do list progress
 """
-import requests
 from os import sys
+import requests
 
 
 if __name__ == "__main__":
