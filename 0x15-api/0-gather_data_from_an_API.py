@@ -28,11 +28,11 @@ if __name__ == "__main__":
         if key.get('completed'):
             completed_tasks += 1
         total_tasks += 1
-
+    # Print the info about user's to-dos
     print("Employee {} is done with tasks({}/{}):".format(name,
                                                           completed_tasks,
                                                           total_tasks))
-
+    # Print every completed task from user
     for key in todos:
         if key.get('completed'):
             task_title = key.get('title')
