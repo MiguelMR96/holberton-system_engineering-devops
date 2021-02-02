@@ -10,7 +10,7 @@ import requests
 if __name__ == "__main__":
     """
     Gather data from API, request data filtered by id.
-    id given when program run ./0-gather_data_from_an_api.py <id>
+    Should give id when program runs ./0-gather_data_from_an_api.py <id>
     """
     completed_tasks = 0
     total_tasks = 0
